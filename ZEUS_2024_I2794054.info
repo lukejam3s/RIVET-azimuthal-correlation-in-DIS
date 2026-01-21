@@ -1,0 +1,49 @@
+Name: ZEUS_2024_I2794054
+Year: 2024
+Summary: Azimuthal correlation angles between scattered lepton and leading jet in lepton-proton collisions
+Experiment: ZEUS
+Collider: HERA
+InspireID: 2794054
+Status: UNVALIDATED NOHEPDATA SINGLEWEIGHT UNPHYSICAL
+Reentrant: false
+Authors:
+ - Luke Jones <luke.jones.24@ucl.ac.uk>
+References:
+ - 'arXiv:2406.01430'
+ - 'DESY-24-070'
+ - 'Eur. Phys. J. C (2024) 84: 1334'
+RunInfo:
+  '27.5 GeV positrons colliding with 920 GeV protons
+  Leading jet $2.5 < p_T < 30$ GeV
+  Jet pseudorapidity $-1.5 < |\eta| < 1.8$' 
+Beams: [p+, e+]
+Energies: [[920,27.5]]
+Luminosity_fb: 326
+Description:
+  'The azimuthal correlation angle between the scattered lepton and leading jets in ZEUS lepton-proton 
+  collisions, with beam energies of 920 GeV and 27.5 GeV. The centre-of-mass energy is 318 GeV, elasticity
+  between $0.04 < y < 0.7$, and outgoing lepton energy $E_e > 10$ GeV. Jets are reconstructed in the range
+  $-1.5 < |\eta| < 1.8$ using the kt algorithm. The lepton polar angle must be between $140 < \theta_e < 180$ 
+  degrees.'   
+ReleaseTests:
+# - $A my-hepmc-prefix :MODE=some_rivet_flag
+Keywords: []
+BibKey: ZEUS:2024mhu
+BibTeX: '@article{ZEUS:2024mhu,
+    author = "Abt, I. and others",
+    collaboration = "ZEUS",
+    title = "{The azimuthal correlation between the leading jet and the scattered lepton in deep inelastic scattering at HERA}",
+    eprint = "2406.01430",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "DESY-24-070",
+    doi = "10.1140/epjc/s10052-024-13547-2",
+    journal = "Eur. Phys. J. C",
+    volume = "84",
+    number = "12",
+    pages = "1334",
+    year = "2024"
+}'
+ToDo:
+ - Implement the analysis, test it, remove this ToDo, and mark as VALIDATED :-)
+
