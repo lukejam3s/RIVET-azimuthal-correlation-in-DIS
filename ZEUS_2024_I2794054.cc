@@ -37,9 +37,9 @@ namespace Rivet {
 
 	// Booking all d sigma / d phi graphs
         book(_h_dsigdphi[0], 1, 1, 1);
-	book(_h_dsigdphi[1], 2, 1, 1);
-	book(_h_dsigdphi[2], 3, 1, 1);
-	book(_h_dsigdphi[3], 4, 1, 1);
+		book(_h_dsigdphi[1], 2, 1, 1);
+		book(_h_dsigdphi[2], 3, 1, 1);
+		book(_h_dsigdphi[3], 4, 1, 1);
         book(_h_dsigdphi[4], 5, 1, 1);
         book(_h_dsigdphi[5], 6, 1, 1);
         book(_h_dsigdphi[6], 7, 1, 1);
